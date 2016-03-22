@@ -4,14 +4,11 @@ vimrc
 my vim configuration
 ### How to install
 
-    git clone https://github.com/kingzs70/vimrc.git ~/
-    cp ~/vimrc/vimrc ~/.vimrc
-    git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    git clone https://github.com/wfeng1982/vimrc.git ~/vimrc
 
-    mkdir -p ~/.vim/syntax
-    cp -rf ~/vimrc/syntax/* ~/.vim/syntax
-
-open VIM, then run
+    sh -x ~/vimrc/setEnv.sh
+    
+then open VIM, and run
 
     :BundleInstall
 # vimrc
